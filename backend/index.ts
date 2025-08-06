@@ -13,7 +13,7 @@ app.get('/api/scrape', async (req, res) => {
   }
 
   // ✅ Toggle de fonte: Amazon ou site de teste
-  const useAmazon = true;
+  const useAmazon = false;
 
   try {
     let url = '';
